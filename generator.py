@@ -39,7 +39,7 @@ def synthetizer(img_path, num_images=10):
 
 		
 image_path = os.path.join(src_dir, 'sample.jpg')
-# TODO: check if path exists
+# TODO: check if path exists ...
 print(image_path)
 generator = synthetizer(image_path, num_images=10)
 
